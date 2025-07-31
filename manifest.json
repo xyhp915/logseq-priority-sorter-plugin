@@ -1,0 +1,8 @@
+{
+  "id": "logseq-priority-sorter-plugin",
+  "title": "Logseq Priority Sorter",
+  "description": "Assign A/B/C to blocks and sort them by priority",
+  "version": "1.0.0",
+  "author": "Koshiro K",
+  "main": "dist/main.js"
+}

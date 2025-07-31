@@ -1,0 +1,23 @@
+{
+  "name": "logseq-priority-sorter",
+  "version": "1.0.0",
+  "description": "Assign A/B/C to blocks and sort them by priority in Logseq",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "author": "Koshiro K",
+  "bugs": {
+    "url": "https://github.com/koshirok096/logseq-priority-sorter-plugin/issues"
+  },
+  "scripts": {
+    "dev":   "esbuild src/main.ts --bundle --outfile=dist/main.js --platform=browser --format=iife --sourcemap --watch",
+    "build": "esbuild src/main.ts --bundle --outfile=dist/main.js --platform=browser --format=iife --minify"
+  },
+  "peerDependencies": {
+    "@logseq/libs": "^0.0.17"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.17",
+    "esbuild": "^0.25.6",
+    "typescript": "^5.5.4"
+  }
+}
